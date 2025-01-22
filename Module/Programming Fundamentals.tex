@@ -362,7 +362,7 @@ that has a special meaning in Python. It is used to represent characters
 that are difficult or impossible to type directly. Some of the common
 escape characters in Python include:
 
-\begin{multicols}{4}
+\begin{multicols}{3}
     \begin{itemize}
         \item \texttt{\textbackslash n} - New Line
         \item \texttt{\textbackslash t} - Tab
@@ -383,6 +383,7 @@ is used to represent a tab character.
 \begin{lstlisting}[language=Python, caption={Escape Characters in Python}, label={lst:escape}]
 new_line = "Hello,\nWorld!"
 tab_space = "Hello,\tWorld!"
+carriage_return = "Hello,\rWorld!"
 back_slash = "Hello,\\World!"
 single_quote = "Hello,\'World!"
 double_quote = "Hello,\"World!"
@@ -391,6 +392,7 @@ form_feed = "Hello,\fWorld!"
 
 print(new_line)
 print(tab_space)
+print(carriage_return)
 print(back_slash)
 print(single_quote)
 print(double_quote)
@@ -528,13 +530,15 @@ Code \ref{lst:integers} shows examples of using integers in Python. In this
 example, the variables \texttt{x} and \texttt{y} are assigned integer values
 5 and -10, respectively. The \texttt{print()} function is used to display
 the values of the variables, and the \texttt{type()} function is used to
-display the data type of the variables.
+display the data type of the variables. An integer is best used when you
+need to represent whole numbers without any decimal points like counting
+the number of students in a class or the number of books in a library.
 
 \subsubsection{Floats}
 
-Floats are decimal numbers, such as 1.0, 2.5, 3.14, 4.0, etc. In Python,
-floats are represented using the \texttt{float} data type. Floats can be
-used to represent real numbers, and they can be used in mathematical
+\textbf{Floats} are decimal numbers, such as 1.0, 2.5, 3.14, 4.0, etc. In
+Python, floats are represented using the \texttt{float} data type. Floats
+can be used to represent real numbers, and they can be used in mathematical
 operations such as addition, subtraction, multiplication, and division.
 
 \begin{lstlisting}[language=Python, caption={Floats in Python}, label={lst:floats}]
@@ -548,13 +552,112 @@ print(type(x))
 print(type(y))
 \end{lstlisting}
 
+Code \ref{lst:floats} shows examples of using floats in Python. In this
+example, the variables \texttt{x} and \texttt{y} are assigned float values
+3.14 and -2.5, respectively. A float is best used when
+you need to represent real numbers with decimal points like the price of
+an item or the temperature of a place.
+
 \subsubsection{Strings}
+
+Strings are sequences of characters, such as ``Hello, World!'', ``Python'',
+``Programming'', etc. In Python, strings are represented using the \texttt{str}
+data type. Strings can be enclosed in single quotes (\texttt{'}), double
+quotes (\texttt{"}), or triple quotes (\texttt{'''} or \texttt{"""}).
+
+\begin{lstlisting}[language=Python, caption={Strings in Python}, label={lst:strings}]
+x = "Hello, World!"
+y = 'Python'
+
+print(x)
+print(y)
+
+print(type(x))
+print(type(y))
+\end{lstlisting}
+
+Code \ref{lst:strings} shows examples of using strings in Python. In this
+example, the variables \texttt{x} and \texttt{y} are assigned string values
+``Hello, World!'' and ``Python'', respectively. A string is best used when
+you need to represent text data like names, addresses, or messages.
 
 \subsubsection{Lists}
 
+A list is a collection of items that are ordered and changeable. In Python,
+lists are represented using the \texttt{list} data type. Lists can contain
+items of different data types, such as integers, floats, strings, etc. Lists
+are enclosed in square brackets \texttt{[]} and the items are separated by
+commas.
+
+\begin{lstlisting}[language=Python, caption={Lists in Python}, label={lst:lists}]
+numbers = [1, 2, 3, 4, 5]
+fruits = ['apple', 'banana', 'cherry']
+
+print(numbers)
+print(fruits)
+
+print(type(numbers))
+print(type(fruits))
+\end{lstlisting}
+
+Code \ref{lst:lists} shows examples of using lists in Python.
+In this example, the variables \texttt{numbers} and \texttt{fruits} are
+assigned list values \texttt{[1, 2, 3, 4, 5]} and \texttt{['apple',
+'banana', 'cherry']}, respectively. A list is best used when you need to
+store multiple items in a single variable that can be changed like a list
+of numbers or a list of names.
+
 \subsubsection{Tuples}
 
+A tuple is a collection of items that are ordered and unchangeable. In
+Python, tuples are represented using the \texttt{tuple} data type. Tuples
+can contain items of different data types, such as integers, floats,
+strings, etc. Tuples are enclosed in parentheses \texttt{()} and the
+items are separated by commas.
+
+\begin{lstlisting}[language=Python, caption={Tuples in Python}, label={lst:tuples}]
+coordinates = (1, 2, 3)
+colors = ('red', 'green', 'blue')
+
+print(coordinates)
+print(colors)
+
+print(type(coordinates))
+print(type(colors))
+\end{lstlisting}
+
+Code \ref{lst:tuples} shows examples of using tuples in Python.
+In this example, the variables \texttt{coordinates} and \texttt{colors}
+are assigned tuple values \texttt{(1, 2, 3)} and \texttt{('red', 'green',
+'blue')}, respectively. A tuple is best used when you need to store
+multiple items in a single variable that should not be changed like the
+coordinates of a point or the RGB values of a color.
+
 \subsubsection{Dictionary}
+
+A dictionary is a collection of items that are unordered, changeable, and
+indexed. In Python, dictionaries are represented using the \texttt{dict}
+data type. Dictionaries consist of key-value pairs, where each key is
+associated with a value. Dictionaries are enclosed in curly braces
+\texttt{\{\}} and the key-value pairs are separated by commas.
+
+\begin{lstlisting}[language=Python, caption={Dictionaries in Python}, label={lst:dictionaries}]
+person = {'name': 'John', 'age': 30, 'city': 'New York'}
+colors = {'red': 255, 'green': 255, 'blue': 255}
+
+print(person)
+print(colors)
+
+print(type(person))
+print(type(colors))
+\end{lstlisting}
+
+Code \ref{lst:dictionaries} shows examples of using dictionaries in Python.
+In this example, the variables \texttt{person} and \texttt{colors} are
+assigned dictionary values \texttt{\{'name': 'John', 'age': 30, 'city':
+'New York'\}} and \texttt{\{'red': 255, 'green': 255, 'blue': 255\}},
+respectively. A dictionary is best used when you need to store key-value
+pairs like the details of a person or the RGB values of a color.
 
 \subsection{Conversion between Data Types}
 

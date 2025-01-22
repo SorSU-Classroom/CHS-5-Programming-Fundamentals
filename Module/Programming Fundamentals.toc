@@ -24,69 +24,69 @@
 \contentsline {subsubsection}{\numberline {1.4.8.1}Integers}{9}{subsubsection.1.4.8.1}%
 \contentsline {subsubsection}{\numberline {1.4.8.2}Floats}{10}{subsubsection.1.4.8.2}%
 \contentsline {subsubsection}{\numberline {1.4.8.3}Strings}{10}{subsubsection.1.4.8.3}%
-\contentsline {subsubsection}{\numberline {1.4.8.4}Lists}{10}{subsubsection.1.4.8.4}%
-\contentsline {subsubsection}{\numberline {1.4.8.5}Tuples}{10}{subsubsection.1.4.8.5}%
-\contentsline {subsubsection}{\numberline {1.4.8.6}Dictionary}{10}{subsubsection.1.4.8.6}%
-\contentsline {subsection}{\numberline {1.4.9}Conversion between Data Types}{10}{subsection.1.4.9}%
-\contentsline {subsection}{\numberline {1.4.10}Basic Operators}{10}{subsection.1.4.10}%
-\contentsline {subsubsection}{\numberline {1.4.10.1}Arithmetic Operators}{10}{subsubsection.1.4.10.1}%
-\contentsline {subsubsection}{\numberline {1.4.10.2}Comparison Operators}{10}{subsubsection.1.4.10.2}%
-\contentsline {subsubsection}{\numberline {1.4.10.3}Assignment Operators}{10}{subsubsection.1.4.10.3}%
-\contentsline {subsubsection}{\numberline {1.4.10.4}Logical Operators}{10}{subsubsection.1.4.10.4}%
-\contentsline {chapter}{\numberline {2}Control Statements}{11}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introduction}{11}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Conditional Statements}{11}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}If Statement}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}If-Else Statement}{11}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}If-Elif-Else Statement}{11}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Looping Statements}{11}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}For Loop}{11}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}While Loop}{11}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Nested Loops}{11}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Functions}{12}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{12}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Defining Functions}{12}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Calling Functions}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Arguments and Parameters}{12}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Return Statement}{12}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Lambda Functions}{12}{section.3.6}%
-\contentsline {chapter}{\numberline {4}File Handling}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introduction}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Opening and Closing Files}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Reading and Writing Files}{13}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Working with Directories}{13}{section.4.4}%
-\contentsline {section}{\numberline {4.5}CSV File}{13}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Reading CSV Files}{13}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Writing CSV Files}{13}{subsection.4.5.2}%
-\contentsline {subsection}{\numberline {4.5.3}CRUD Operations in CSV Files}{13}{subsection.4.5.3}%
-\contentsline {subsubsection}{\numberline {4.5.3.1}Create Operation}{13}{subsubsection.4.5.3.1}%
-\contentsline {subsubsection}{\numberline {4.5.3.2}Read Operation}{13}{subsubsection.4.5.3.2}%
-\contentsline {subsubsection}{\numberline {4.5.3.3}Update Operation}{13}{subsubsection.4.5.3.3}%
-\contentsline {subsubsection}{\numberline {4.5.3.4}Delete Operation}{13}{subsubsection.4.5.3.4}%
-\contentsline {chapter}{\numberline {5}Exception Handling}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introduction}{14}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Try-Except Block}{14}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Finally Block}{14}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Raising Exceptions}{14}{section.5.4}%
-\contentsline {section}{\numberline {5.5}User-Defined Exceptions}{14}{section.5.5}%
-\contentsline {chapter}{\numberline {6}Object-Oriented Programming}{15}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{15}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Classes and Objects}{15}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Inheritance}{15}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Polymorphism}{15}{section.6.4}%
-\contentsline {section}{\numberline {6.5}Encapsulation}{15}{section.6.5}%
-\contentsline {section}{\numberline {6.6}Abstraction}{15}{section.6.6}%
-\contentsline {chapter}{\numberline {7}Modules and Packages}{16}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introduction}{16}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Creating Modules}{16}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Importing Modules}{16}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Creating Packages}{16}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Importing Packages}{16}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Regular Expressions}{17}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Introduction}{17}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Match Function}{17}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Search Function}{17}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Findall Function}{17}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Split Function}{17}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Sub Function}{17}{section.8.6}%
-\contentsline {chapter}{\numberline {9}References}{18}{chapter.9}%
+\contentsline {subsubsection}{\numberline {1.4.8.4}Lists}{11}{subsubsection.1.4.8.4}%
+\contentsline {subsubsection}{\numberline {1.4.8.5}Tuples}{11}{subsubsection.1.4.8.5}%
+\contentsline {subsubsection}{\numberline {1.4.8.6}Dictionary}{12}{subsubsection.1.4.8.6}%
+\contentsline {subsection}{\numberline {1.4.9}Conversion between Data Types}{12}{subsection.1.4.9}%
+\contentsline {subsection}{\numberline {1.4.10}Basic Operators}{12}{subsection.1.4.10}%
+\contentsline {subsubsection}{\numberline {1.4.10.1}Arithmetic Operators}{12}{subsubsection.1.4.10.1}%
+\contentsline {subsubsection}{\numberline {1.4.10.2}Comparison Operators}{12}{subsubsection.1.4.10.2}%
+\contentsline {subsubsection}{\numberline {1.4.10.3}Assignment Operators}{12}{subsubsection.1.4.10.3}%
+\contentsline {subsubsection}{\numberline {1.4.10.4}Logical Operators}{12}{subsubsection.1.4.10.4}%
+\contentsline {chapter}{\numberline {2}Control Statements}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Conditional Statements}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}If Statement}{13}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}If-Else Statement}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}If-Elif-Else Statement}{13}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Looping Statements}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}For Loop}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}While Loop}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Nested Loops}{13}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Functions}{14}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{14}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Defining Functions}{14}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Calling Functions}{14}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Arguments and Parameters}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Return Statement}{14}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Lambda Functions}{14}{section.3.6}%
+\contentsline {chapter}{\numberline {4}File Handling}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Opening and Closing Files}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Reading and Writing Files}{15}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Working with Directories}{15}{section.4.4}%
+\contentsline {section}{\numberline {4.5}CSV File}{15}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Reading CSV Files}{15}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Writing CSV Files}{15}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}CRUD Operations in CSV Files}{15}{subsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.1}Create Operation}{15}{subsubsection.4.5.3.1}%
+\contentsline {subsubsection}{\numberline {4.5.3.2}Read Operation}{15}{subsubsection.4.5.3.2}%
+\contentsline {subsubsection}{\numberline {4.5.3.3}Update Operation}{15}{subsubsection.4.5.3.3}%
+\contentsline {subsubsection}{\numberline {4.5.3.4}Delete Operation}{15}{subsubsection.4.5.3.4}%
+\contentsline {chapter}{\numberline {5}Exception Handling}{16}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introduction}{16}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Try-Except Block}{16}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Finally Block}{16}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Raising Exceptions}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.5}User-Defined Exceptions}{16}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Object-Oriented Programming}{17}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{17}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Classes and Objects}{17}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Inheritance}{17}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Polymorphism}{17}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Encapsulation}{17}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Abstraction}{17}{section.6.6}%
+\contentsline {chapter}{\numberline {7}Modules and Packages}{18}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introduction}{18}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Creating Modules}{18}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Importing Modules}{18}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Creating Packages}{18}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Importing Packages}{18}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Regular Expressions}{19}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Introduction}{19}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Match Function}{19}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Search Function}{19}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Findall Function}{19}{section.8.4}%
+\contentsline {section}{\numberline {8.5}Split Function}{19}{section.8.5}%
+\contentsline {section}{\numberline {8.6}Sub Function}{19}{section.8.6}%
+\contentsline {chapter}{\numberline {9}References}{20}{chapter.9}%

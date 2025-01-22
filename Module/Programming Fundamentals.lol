@@ -5,7 +5,11 @@
 \contentsline {lstlisting}{\numberline {1.5}{\ignorespaces Escape Characters in Python}}{7}{lstlisting.1.5}%
 \contentsline {lstlisting}{\numberline {1.6}{\ignorespaces Multi-line Strings in Single or Double Quotes}}{8}{lstlisting.1.6}%
 \contentsline {lstlisting}{\numberline {1.7}{\ignorespaces Comments in Python}}{8}{lstlisting.1.7}%
-\contentsline {lstlisting}{\numberline {1.8}{\ignorespaces Lines and Indentation in Python}}{8}{lstlisting.1.8}%
+\contentsline {lstlisting}{\numberline {1.8}{\ignorespaces Lines and Indentation in Python}}{9}{lstlisting.1.8}%
 \contentsline {lstlisting}{\numberline {1.9}{\ignorespaces Multi-Line Statements in Python}}{9}{lstlisting.1.9}%
 \contentsline {lstlisting}{\numberline {1.10}{\ignorespaces Integers in Python}}{9}{lstlisting.1.10}%
 \contentsline {lstlisting}{\numberline {1.11}{\ignorespaces Floats in Python}}{10}{lstlisting.1.11}%
+\contentsline {lstlisting}{\numberline {1.12}{\ignorespaces Strings in Python}}{10}{lstlisting.1.12}%
+\contentsline {lstlisting}{\numberline {1.13}{\ignorespaces Lists in Python}}{11}{lstlisting.1.13}%
+\contentsline {lstlisting}{\numberline {1.14}{\ignorespaces Tuples in Python}}{11}{lstlisting.1.14}%
+\contentsline {lstlisting}{\numberline {1.15}{\ignorespaces Dictionaries in Python}}{12}{lstlisting.1.15}%
