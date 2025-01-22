@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  22 JAN 2025 13:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  22 JAN 2025 13:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1180,14 +1180,14 @@ Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on in
 
 
 [5{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 291.
+
+[6]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 309.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[6{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-
-[7]
+[7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
 
 [8]
 
@@ -1201,57 +1201,63 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 [13]
 
-[14{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+[14]
 
 [15]
 
-[16]
+[16{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}]
+
+[17]
+
+[18]
+
+[19]
  2.
-
-
-[17
-
-]
- 3.
-
-
-[18
-
-]
- 4.
-
-
-[19
-
-]
- 5.
 
 
 [20
 
 ]
- 6.
+ 3.
 
 
 [21
 
 ]
- 7.
+ 4.
 
 
 [22
 
 ]
- 8.
+ 5.
 
 
 [23
 
 ]
- 9.
+ 6.
 
 
 [24
+
+]
+ 7.
+
+
+[25
+
+]
+ 8.
+
+
+[26
+
+]
+ 9.
+
+
+[27
 
 ] (./Programming Fundamentals.aux)
  ***********
@@ -1262,18 +1268,18 @@ Package rerunfilecheck Info: File `"Programming Fundamentals".out' has not chang
 (rerunfilecheck)             Checksum: B93433A57AB10A223AD712FFC09B984A;13279.
  ) 
 Here is how much of TeX's memory you used:
- 34754 strings out of 473207
- 652084 string characters out of 5720461
- 1410392 words of memory out of 5000000
- 56826 multiletter control sequences out of 15000+600000
+ 34944 strings out of 473207
+ 654406 string characters out of 5720461
+ 1472392 words of memory out of 5000000
+ 56943 multiletter control sequences out of 15000+600000
  668723 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,121p,1329b,2087s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1329b,2089s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Programming Fundamentals.pdf" (32 pages, 586358 bytes).
+Output written on "Programming Fundamentals.pdf" (35 pages, 594332 bytes).
 PDF statistics:
- 1080 PDF objects out of 1200 (max. 8388607)
- 984 compressed objects within 10 object streams
- 358 named destinations out of 1000 (max. 500000)
+ 1177 PDF objects out of 1200 (max. 8388607)
+ 1077 compressed objects within 11 object streams
+ 431 named destinations out of 1000 (max. 500000)
  63329 words of extra memory for PDF output out of 74296 (max. 10000000)
 
