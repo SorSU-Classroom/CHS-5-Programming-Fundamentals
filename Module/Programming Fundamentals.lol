@@ -13,3 +13,9 @@
 \contentsline {lstlisting}{\numberline {1.13}{\ignorespaces Lists in Python}}{11}{lstlisting.1.13}%
 \contentsline {lstlisting}{\numberline {1.14}{\ignorespaces Tuples in Python}}{11}{lstlisting.1.14}%
 \contentsline {lstlisting}{\numberline {1.15}{\ignorespaces Dictionaries in Python}}{12}{lstlisting.1.15}%
+\contentsline {lstlisting}{\numberline {1.16}{\ignorespaces Conversion between Data Types in Python}}{12}{lstlisting.1.16}%
+\contentsline {lstlisting}{\numberline {1.17}{\ignorespaces Arithmetic Operators in Python}}{13}{lstlisting.1.17}%
+\contentsline {lstlisting}{\numberline {1.18}{\ignorespaces PEMDAS Rule in Python}}{14}{lstlisting.1.18}%
+\contentsline {lstlisting}{\numberline {1.19}{\ignorespaces Comparison Operators in Python}}{14}{lstlisting.1.19}%
+\contentsline {lstlisting}{\numberline {1.20}{\ignorespaces Assignment Operators in Python}}{15}{lstlisting.1.20}%
+\contentsline {lstlisting}{\numberline {1.21}{\ignorespaces Logical Operators in Python}}{16}{lstlisting.1.21}%

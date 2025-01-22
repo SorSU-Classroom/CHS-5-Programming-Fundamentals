@@ -661,15 +661,248 @@ pairs like the details of a person or the RGB values of a color.
 
 \subsection{Conversion between Data Types}
 
+In Python, you can convert one data type to another using built-in functions.
+Some of the common functions used for data type conversion include:
+
+\begin{itemize}
+    \item \texttt{int()} - Converts a value to an integer.
+    \item \texttt{float()} - Converts a value to a float.
+    \item \texttt{str()} - Converts a value to a string.
+    \item \texttt{list()} - Converts a value to a list.
+    \item \texttt{tuple()} - Converts a value to a tuple.
+    \item \texttt{dict()} - Converts a value to a dictionary.
+    \item \texttt{set()} - Converts a value to a set.
+    \item \texttt{bool()} - Converts a value to a boolean.
+    \item \texttt{chr()} - Converts an integer to a character.
+\end{itemize}
+
+\begin{lstlisting}[language=Python, caption={Conversion between Data Types in Python}, label={lst:conversion}]
+x = 5
+y = 3.14
+z = '10'
+
+list_numbers = [1, 2, 3, 4, 5, 4, 3, 2, 1]
+tuple_numbers = (1, 2, 3, 4, 5)
+dict_colors = {'red': 255, 'green': 255, 'blue': 255}
+
+print("Integer to Float:", float(x))
+print("Float to Integer:", int(y))
+print("String to Integer:", int(z))
+print("List to Tuple:", tuple(list_numbers))
+print("Tuple to List:", list(tuple_numbers))
+print("Dictionary to List:", list(dict_colors))
+print("List to Set:", set(list_numbers))
+print("Integer to Boolean:", bool(x))
+print("Integer to Character:", chr(65))
+\end{lstlisting}
+
+Code \ref{lst:conversion} shows examples of converting between data types
+in Python. In this example, the variables \texttt{x}, \texttt{y}, and
+\texttt{z} are assigned integer, float, and string values, respectively.
+The variables \texttt{list\_numbers}, \texttt{tuple\_numbers}, and
+\texttt{dict\_colors} are assigned list, tuple, and dictionary values,
+respectively. The built-in functions are used to convert the values of
+these variables to different data types.
+
 \subsection{Basic Operators}
+
+\textbf{Operators} are used to perform operations on variables and values.
+Python supports a wide range of operators, including arithmetic operators,
+comparison operators, assignment operators, logical operators, etc.
 
 \subsubsection{Arithmetic Operators}
 
+\textbf{Arithmetic operators} are used to perform mathematical operations
+such as addition, subtraction, multiplication, division, etc. Some of the
+common arithmetic operators in Python include:
+
+\begin{multicols}{2}
+    \begin{itemize}
+        \item \texttt{+} - Addition
+        \item \texttt{-} - Subtraction
+        \item \texttt{*} - Multiplication
+        \item \texttt{/} - Division
+        \item \texttt{\%} - Modulus
+        \item \texttt{**} - Exponentiation
+        \item \texttt{//} - Floor Division
+    \end{itemize}
+\end{multicols}
+
+\begin{lstlisting}[language=Python, caption={Arithmetic Operators in Python}, label={lst:arithmetic}]
+x = 10
+y = 3
+
+print("Addition:\t", x + y)
+print("Subtraction:\t", x - y)
+print("Multiplication:\t", x * y)
+print("Division:\t", x / y)
+print("Modulus:\t", x % y)
+print("Exponentiation:\t", x ** y)
+print("Floor Division:\t", x // y)
+\end{lstlisting}
+
+Code \ref{lst:arithmetic} shows examples of using arithmetic operators in
+Python. In this example, the variables \texttt{x} and \texttt{y} are
+assigned integer values 10 and 3, respectively. The arithmetic operators
+are used to perform addition, subtraction, multiplication, division,
+modulus, exponentiation, and floor division operations on these variables.
+
+\subsection{PEMDAS Rule}
+
+In mathematics, the \textbf{order of operations} is a collection of rules
+that define the order in which different operations should be performed
+when evaluating an expression. The order of operations is commonly remembered
+using the acronym \textbf{PEMDAS}, which stands for:
+
+\begin{itemize}
+    \item \textbf{P}arentheses
+    \item \textbf{E}xponents
+    \item \textbf{M}ultiplication and \textbf{D}ivision
+    \item \textbf{A}ddition and \textbf{S}ubtraction
+\end{itemize}
+
+The PEMDAS rule is used to determine the order in which arithmetic
+operations should be performed in an expression. For example, in the
+expression $5 + 3 \times 2$, the multiplication should be performed
+first according to the PEMDAS rule, resulting in the value 11.
+
+\begin{lstlisting}[language=Python, caption={PEMDAS Rule in Python}, label={lst:pemdas}]
+res1 = 5 + 3 * 2
+res2 = (5 + 3) * 2
+
+print("Result 1:", res1)
+print("Result 2:", res2)
+\end{lstlisting}
+
+Code \ref{lst:pemdas} shows examples of using the PEMDAS rule in Python.
+In this example, the expressions $5 + 3 \times 2$ and $(5 + 3) \times 2$
+are evaluated using the arithmetic operators. The result of the first
+expression is 11, while the result of the second expression is 16. This
+demonstrates the importance of following the PEMDAS rule when evaluating
+arithmetic expressions.
+
 \subsubsection{Comparison Operators}
+
+\textbf{Comparison operators} are used to compare two values and determine
+the relationship between them. Comparison operators return a boolean value
+\texttt{True} or \texttt{False} based on the comparison result. Some of
+the common comparison operators in Python include:
+
+\begin{multicols}{2}
+    \begin{itemize}
+        \item \texttt{==} - Equal
+        \item \texttt{!=} - Not Equal
+        \item \texttt{>} - Greater Than
+        \item \texttt{<} - Less Than
+        \item \texttt{>=} - Greater Than or Equal To
+        \item \texttt{<=} - Less Than or Equal To
+    \end{itemize}
+\end{multicols}
+
+\begin{lstlisting}[language=Python, caption={Comparison Operators in Python}, label={lst:comparison}]
+x = 10
+y = 5
+
+print("Equal:\t", x == y)
+print("Not Equal:\t", x != y)
+print("Greater Than:\t", x > y)
+print("Less Than:\t", x < y)
+print("Greater Than or Equal To:\t", x >= y)
+print("Less Than or Equal To:\t", x <= y)
+\end{lstlisting}
+
+Code \ref{lst:comparison} shows examples of using comparison operators in
+Python. In this example, the variables \texttt{x} and \texttt{y} are
+assigned integer values 10 and 5, respectively. The comparison operators
+are used to compare the values of these variables and return boolean values
+\texttt{True} or \texttt{False} based on the comparison result.
 
 \subsubsection{Assignment Operators}
 
+\textbf{Assignment operators} are used to assign values to variables. They
+combine the assignment operator \texttt{=} with other operators to perform
+an operation and assign the result to a variable. Some of the common
+assignment operators in Python include:
+
+\begin{multicols}{2}
+    \begin{itemize}
+        \item \texttt{+=} - Addition
+        \item \texttt{-=} - Subtraction
+        \item \texttt{*=} - Multiplication
+        \item \texttt{/=} - Division
+        \item \texttt{\%=} - Modulus
+        \item \texttt{**=} - Exponentiation
+        \item \texttt{//=} - Floor Division
+    \end{itemize}
+\end{multicols}
+
+\begin{lstlisting}[language=Python, caption={Assignment Operators in Python}, label={lst:assignment}]
+x = 10
+y = 5
+
+x += y
+print("Addition:\t", x)
+
+x -= y
+print("Subtraction:\t", x)
+
+x *= y
+print("Multiplication:\t", x)
+
+x /= y
+print("Division:\t", x)
+
+x %= y
+print("Modulus:\t", x)
+
+x **= y
+print("Exponentiation:\t", x)
+
+x //= y
+print("Floor Division:\t", x)
+\end{lstlisting}
+
+Code \ref{lst:assignment} shows examples of using assignment operators in
+Python. In this example, the variables \texttt{x} and \texttt{y} are
+assigned integer values 10 and 5, respectively. The assignment operators
+are used to perform addition, subtraction, multiplication, division,
+modulus, exponentiation, and floor division operations on these variables
+and assign the result to the variable \texttt{x}.
+
 \subsubsection{Logical Operators}
+
+\textbf{Logical operators} are used to combine multiple conditions and
+determine the relationship between them. Logical operators return a
+boolean value \texttt{True} or \texttt{False} based on the logical
+relationship between the conditions. Some of the common logical operators
+in Python include:
+
+\begin{multicols}{2}
+    \begin{itemize}
+        \item \texttt{and} - Logical AND, returns \texttt{True} if both
+        conditions are \texttt{True}.
+        \item \texttt{or} - Logical OR, returns \texttt{True} if at least
+        one condition is \texttt{True}.
+        \item \texttt{not} - Logical NOT, returns the opposite of the
+        condition.
+    \end{itemize}
+\end{multicols}
+
+\begin{lstlisting}[language=Python, caption={Logical Operators in Python}, label={lst:logical}]
+x = 10
+y = 5
+
+print("Logical AND:\t", x > 5 and y < 10)
+print("Logical OR:\t", x > 5 or y > 10)
+print("Logical NOT:\t", not x > 5)
+\end{lstlisting}
+
+Code \ref{lst:logical} shows examples of using logical operators in
+Python. In this example, the variables \texttt{x} and \texttt{y} are
+assigned integer values 10 and 5, respectively. The logical operators
+are used to combine multiple conditions and determine the relationship
+between them, returning boolean values \texttt{True} or \texttt{False}
+based on the logical relationship.
 
 \chapter{Control Statements}
 

@@ -536,6 +536,7 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ts1-lmr10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT Programming Fundamentals.aux
 INPUT ./Programming Fundamentals.out
 INPUT ./Programming Fundamentals.out
