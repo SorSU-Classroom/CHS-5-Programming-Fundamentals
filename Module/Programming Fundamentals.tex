@@ -1,0 +1,696 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX book template                           %%
+%% Author:  Amber Jain (http://amberj.devio.us/) %%
+%% License: ISC license                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper,11pt,oneside]{book}
+\usepackage{modulestyle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Source: http://en.wikibooks.org/wiki/LaTeX/Hyperlinks %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 'dedication' environment: To add a dedication paragraph at the start of book %
+% Source: http://www.tug.org/pipermail/texhax/2010-June/015184.html            %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{dedication}
+{
+   \cleardoublepage
+   \thispagestyle{empty}
+   \vspace*{\stretch{1}}
+   \hfill\begin{minipage}[t]{0.66\textwidth}
+   \raggedright
+}
+{
+   \end{minipage}
+   \vspace*{\stretch{3}}
+   \clearpage
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter quote at the start of chapter        %
+% Source: http://tex.stackexchange.com/a/53380 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand{\@chapapp}{}% Not necessary...
+\newenvironment{chapquote}[2][2em]
+  {\setlength{\@tempdima}{#1}%
+   \def\chapquote@author{#2}%
+   \parshape 1 \@tempdima \dimexpr\textwidth-2\@tempdima\relax%
+   \itshape}
+  {\par\normalfont\hfill--\ \chapquote@author\hspace*{\@tempdima}\par\bigskip}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First page of book which contains 'stuff' like: %
+%  - Book title, subtitle                         %
+%  - Book author name                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\BookTitle}{Programming Fundamentals}
+\newcommand{\BookTitleFootnote}{A course in the Bachelor of Technical Vocational Teacher Education (BTVTED) Major in Computer System Servicing.}
+
+\newcommand{\BookSubtitle}{A Study Guide for Students of Sorsogon State University - Bulan Campus}
+\newcommand{\BookSubtitleFootnote}{This book is a study guide for students of
+Sorsogon State University - Bulan Campus taking up the course Programming Fundamentals.}
+
+\newcommand{\BookAuthorFirstName}{Jarrian Vince}
+\newcommand{\BookAuthorLastName}{Gojar}
+\newcommand{\BookAuthorName}{Jarrian Vince G. Gojar}
+\newcommand{\BookAuthorURL}{https://github.com/godkingjay}
+
+% Book's title and subtitle
+\title{\Huge \textbf{\BookTitle}  \footnote{\BookTitleFootnote} \\
+\huge \BookSubtitle \footnote{\BookSubtitleFootnote}}
+
+% Author
+\author{\textsc{\BookAuthorName}\thanks{\url{\BookAuthorURL}}}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Add a dedication paragraph to dedicate your book to someone %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{dedication}
+Sorsogon State University - Bulan Campus
+\end{dedication}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Auto-generated table of contents, list of figures and list of tables %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\tableofcontents
+\listoffigures
+\listoftables
+\lstlistoflistings
+
+\mainmatter
+
+%%%%%%%%%%%
+% Preface %
+%%%%%%%%%%%
+\chapter*{Preface}
+% A Quote all about Programming Fundamentals
+\begin{chapquote}{Donald Ervin Knuth}
+``Programming is the art of telling another human being what one wants
+the computer to do.''
+\end{chapquote}
+
+\noindent \BookAuthorName \\
+\noindent \url{\BookAuthorURL}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%~ NEW CHAPTER STARTS HERE %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Introduction to Python}
+
+\section{Introduction}
+
+\textbf{Python} is a high-level, interpreted, interactive, and
+object-oriented scripting language. It is designed to be highly
+readable, using English keywords frequently, unlike other languages
+that use punctuation, and it has fewer syntactical constructions.
+
+Python is a versatile, general-purpose, and powerful programming language.
+It is an excellent first language because it is concise and easy to read.
+Whether you want to do web development, machine learning, or data science,
+Python is the language for you.
+
+\subsection{History of Python}
+
+Python was developed by \textbf{Guido van Rossum} in the late 80's
+and early 90's at the National Research Institute for Mathematics and
+Computer Science in the Netherlands. Python is derived from many other
+languages, including ABC, Modula-3, C, C++, Algol-68, SmallTalk, and
+Unix shell and other scripting languages.
+
+\subsection{What is Programming Language?}
+
+A programming language is a formal language comprising a set of instructions
+that produce various kinds of output. Programming languages are used in
+computer programming to implement algorithms.
+
+\section{Environment Setup}
+
+In software development, an \textbf{integrated development environment (IDE)}
+is a software application that provides comprehensive facilities to computer
+programmers for software development. An IDE normally consists of a source
+code editor, build automation tools, and a debugger. Other than the IDE,
+it is also important to have the programming language installed on your
+computer.
+
+\subsection{How to Download and Install Python on Windows}
+
+To download and install Python on Windows, follow these steps:
+
+\begin{enumerate}
+    \item Open a web browser and go to the official Python website at
+  \url{https://www.python.org/downloads/}.
+    \item Click on the latest version of Python to download the installer.
+    \item Run the installer and follow the installation wizard.
+    \item Make sure to check the box that says ``Add Python to PATH''.
+    \item Click on the ``Install Now'' button to install Python on your computer.
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./assets/setup/python-install.png}
+        \caption{Python Installation Wizard}
+        \label{fig:python-install}
+    \end{figure}
+    
+    \item Once the installation is complete, you can verify the installation
+    by opening a command prompt and typing \texttt{python --version}.
+    
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./assets/setup/python-check.png}
+        \caption{Python Installation Verification}
+        \label{fig:python-check}
+    \end{figure}
+\end{enumerate}
+
+\subsection{How to Download PyCharm IDE on Windows}
+
+To download and install PyCharm IDE on Windows, follow these steps:
+
+\begin{enumerate}
+    \item Open a web browser and go to the official PyCharm website at
+    \url{https://www.jetbrains.com/pycharm/download/}.
+    \item Click on the ``Download'' button to download the installer.
+
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./assets/setup/pycharm-community.png}
+        \caption{PyCharm Community Edition Download}
+        \label{fig:pycharm-community}
+    \end{figure}
+    
+    \item Run the installer and follow the installation wizard.
+    \item Make sure to check the box that says ``Create associations''.
+    \item Click on the ``Install'' button to install PyCharm on your computer.
+    
+    \begin{figure}[!h]
+        \centering
+        \includegraphics[width=0.8\textwidth]{./assets/setup/pycharm-install.png}
+        \caption{PyCharm Community Edition Installation Wizard}
+        \label{fig:pycharm-install}
+    \end{figure}
+
+    \item Once the installation is complete, you can launch PyCharm by
+    clicking on the desktop shortcut or searching for it in the Start menu.
+\end{enumerate}
+
+\section{First Python Program}
+
+In Python, the \texttt{print()} function is used to display output on the
+screen. To write your first Python program, follow these steps:
+
+\begin{enumerate}
+    \item Open PyCharm IDE on your computer.
+    \item Click on the ``Create New Project'' button to create a new
+    project.
+    \item Enter a name for your project and click on the ``Create'' button.
+    \item Right-click on the project folder in the Project view and select
+    ``New'' $\rightarrow$ ``Python File''.
+    \item Enter a name for your Python file and click on the ``OK'' button.
+    \item Type the following code in the Python file:
+    
+    \begin{lstlisting}[language=Python, caption={Hello, World! Program}, label={lst:hello-world}]
+    print("Hello, World!")
+    \end{lstlisting}
+    
+    \item Click on the ``Run'' button to run the program.
+    \item You should see the output ``Hello, World!'' displayed in the Run window.
+\end{enumerate}
+
+\section{Basic Syntax}
+
+In Python, the syntax refers to the rules that define the combinations of
+symbols that are considered to be correctly structured programs in the
+language. The Python syntax is simple and easy to learn. It is based on
+indentation and does not require the use of curly braces or semicolons.
+It can also be easily understood by beginners as it is very similarly
+structured to the English language.
+
+\subsection{Variables}
+
+A variable is a name that refers to a value. In Python, variables are
+created when you assign a value to them. You can assign a value to a
+variable using the assignment operator \texttt{=}.
+
+\begin{lstlisting}[language=Python, caption={Variable Assignment}, label={lst:variables}]
+x = 5
+y = "Hello, World!"
+
+print(x)
+print(y)
+\end{lstlisting}
+
+Code \ref{lst:variables} shows how to assign values to variables in Python.
+In this example, the variable \texttt{x} is assigned the value 5, and the
+variable \texttt{y} is assigned the value ``Hello, World!''.
+
+\subsection{Python Identifiers}
+
+An identifier is a name given to entities like class, functions, variables, etc.
+It helps to differentiate one entity from another. In Python, an identifier
+is a name used to identify a variable, function, class, module, or other
+object. An identifier must start with a letter or an underscore (\_),
+followed by letters, digits, or underscores.
+
+\begin{lstlisting}[language=Python, caption={Valid and Invalid Identifiers}, label={lst:identifiers}]
+# Valid Identifiers
+my_variable = 5
+myVariable = 10
+_my_variable = 15
+
+# Invalid Identifiers
+1variable = 20
+my-variable = 25
+my variable = 30
+\end{lstlisting}
+
+Code \ref{lst:identifiers} shows examples of valid and invalid identifiers
+in Python. In this example, the variables \texttt{my\_variable},
+\texttt{myVariable}, and \texttt{\_my\_variable} are valid identifiers,
+while the variables \texttt{1variable}, \texttt{my-variable}, and
+\texttt{my variable} are invalid identifiers.
+
+\subsection{Reserved Words}
+
+Python has a set of reserved words that cannot be used as identifiers.
+These reserved words are used by the Python interpreter to recognize the
+structure of the program. Some of the reserved words in Python include:
+
+\begin{multicols}{4}
+    \begin{itemize}
+        \item \texttt{False}
+        \item \texttt{None}
+        \item \texttt{True}
+        \item \texttt{and}
+        \item \texttt{as}
+        \item \texttt{assert}
+        \item \texttt{break}
+        \item \texttt{class}
+        \item \texttt{continue}
+        \item \texttt{def}
+        \item \texttt{del}
+        \item \texttt{elif}
+        \item \texttt{else}
+        \item \texttt{except}
+        \item \texttt{exec}
+        \item \texttt{finally}
+        \item \texttt{for}
+        \item \texttt{from}
+        \item \texttt{global}
+        \item \texttt{if}
+        \item \texttt{import}
+        \item \texttt{in}
+        \item \texttt{is}
+        \item \texttt{lambda}
+        \item \texttt{nonlocal}
+        \item \texttt{not}
+        \item \texttt{or}
+        \item \texttt{pass}
+        \item \texttt{print}
+        \item \texttt{raise}
+        \item \texttt{return}
+        \item \texttt{try}
+        \item \texttt{while}
+        \item \texttt{with}
+        \item \texttt{yield}
+    \end{itemize}
+\end{multicols}
+
+These reserved words cannot be used as identifiers in Python. They cannot
+be used as variable names, function names, or any other identifier names.
+
+\subsection{Quotation in Python}
+
+In Python, you can use either single quotes (\texttt{'}), double quotes
+(\texttt{"}), or triple quotes (\texttt{'''} or \texttt{"""}). Single and
+double quotes are used to represent strings, while triple quotes are used
+to represent multi-line strings.
+
+\begin{lstlisting}[language=Python, caption={Quotation in Python}, label={lst:quotation}]
+single_quote = 'Hello, World!'
+double_quote = "Hello, World!"
+triple_quote = '''Hello,
+World!'''
+
+print(single_quote)
+print(double_quote)
+print(triple_quote)
+\end{lstlisting}
+
+Code \ref{lst:quotation} shows examples of using single quotes, double
+quotes, and triple quotes in Python. In this example, the variables
+\texttt{single\_quote}, \texttt{double\_quote}, and \texttt{triple\_quote}
+are assigned string values using single quotes, double quotes, and triple
+quotes, respectively. A single quote or double quote can be used to
+represent a string value, while triple quotes are used to represent
+multi-line strings.
+
+\subsubsection{Escape Characters}
+
+An escape character is a backslash (\textbackslash) followed by a character
+that has a special meaning in Python. It is used to represent characters
+that are difficult or impossible to type directly. Some of the common
+escape characters in Python include:
+
+\begin{multicols}{4}
+    \begin{itemize}
+        \item \texttt{\textbackslash n} - New Line
+        \item \texttt{\textbackslash t} - Tab
+        \item \texttt{\textbackslash r} - Carriage Return
+        \item \texttt{\textbackslash \textbackslash} - Backslash
+        \item \texttt{\textbackslash '} - Single Quote
+        \item \texttt{\textbackslash "} - Double Quote
+        \item \texttt{\textbackslash b} - Backspace
+        \item \texttt{\textbackslash f} - Form Feed
+    \end{itemize}
+\end{multicols}
+
+These escape characters are used to represent special characters in Python.
+For example, the escape character \texttt{\textbackslash n} is used to
+represent a newline character, while the escape character \texttt{\textbackslash t}
+is used to represent a tab character.
+
+\begin{lstlisting}[language=Python, caption={Escape Characters in Python}, label={lst:escape}]
+new_line = "Hello,\nWorld!"
+tab_space = "Hello,\tWorld!"
+back_slash = "Hello,\\World!"
+single_quote = "Hello,\'World!"
+double_quote = "Hello,\"World!"
+back_space = "Hello,\bWorld!"
+form_feed = "Hello,\fWorld!"
+
+print(new_line)
+print(tab_space)
+print(back_slash)
+print(single_quote)
+print(double_quote)
+print(back_space)
+print(form_feed)
+\end{lstlisting}
+
+Code \ref{lst:escape} shows examples of using escape characters in Python.
+In this example, the variables \texttt{new\_line}, \texttt{tab\_space},
+\texttt{back\_slash}, \texttt{single\_quote}, \texttt{double\_quote},
+\texttt{back\_space}, and \texttt{form\_feed} are assigned string values
+using escape characters to represent special characters.
+
+\subsubsection{Multi-line Strings in Single or Double Quotes}
+
+In Python, you can use triple quotes (\texttt{'''} or \texttt{"""}) to
+represent multi-line strings. This allows you to write strings that span
+multiple lines without using escape characters. However, if you want to
+represent multi-line strings using single or double quotes, you can use
+the escape character \texttt{\textbackslash n} to represent a newline
+character.
+
+\begin{lstlisting}[language=Python, caption={Multi-line Strings in Single or Double Quotes}, label={lst:multi-line}]
+multi_line_single = 'Hello,\nWorld!'
+multi_line_double = "Hello,\nWorld!"
+
+print(multi_line_single)
+print(multi_line_double)
+\end{lstlisting}
+
+Code \ref{lst:multi-line} shows examples of using multi-line strings in
+single or double quotes in Python. In this example, the variables
+\texttt{multi\_line\_single} and \texttt{multi\_line\_double} are assigned
+string values using the escape character \texttt{\textbackslash n} to
+represent a newline character.
+
+\subsection{Comments}
+
+Comments are used to explain the code and make it more readable. In Python,
+comments start with the hash character (\texttt{\#}) and continue to the
+end of the line. Comments are ignored by the Python interpreter and are
+not executed as part of the program.
+
+\begin{lstlisting}[language=Python, caption={Comments in Python}, label={lst:comments}]
+# This is a single-line comment
+
+'''
+This is a multi-line comment.
+It can span multiple lines.
+'''
+
+"""
+This is also a multi-line comment.
+It can span multiple lines.
+"""
+\end{lstlisting}
+
+Code \ref{lst:comments} shows examples of single-line and multi-line
+comments in Python. In this example, the single-line comment starts with
+the hash character (\texttt{\#}), while the multi-line comment is enclosed
+in triple quotes (\texttt{'''} or \texttt{"""}).
+
+\subsection{Lines and Indentation}
+
+Python uses indentation to define the structure of the code. Indentation
+is used to group statements together. The number of spaces in the
+indentation is not fixed, but all statements within the block must be
+indented the same amount.
+
+\begin{lstlisting}[language=Python, caption={Lines and Indentation in Python}, label={lst:indentation}]
+if 5 > 2:
+    print("Five is greater than two!")
+\end{lstlisting}
+
+Code \ref{lst:indentation} shows an example of using indentation in Python.
+In this example, the \texttt{print()} statement is indented to indicate
+that it is part of the \texttt{if} block. The number of spaces in the
+indentation is not fixed, but all statements within the block must be
+indented the same amount.
+
+\subsection{Multi-Line Statements}
+
+In Python, a statement can span multiple lines if it is enclosed in
+parentheses \texttt{()}, square brackets \texttt{[]}, or curly braces
+\texttt{\{\}}. This is useful when you have a long statement that you
+want to split into multiple lines for readability.
+
+\begin{lstlisting}[language=Python, caption={Multi-Line Statements in Python}, label={lst:multiline}]
+numbers = [1, 2, 3, 4, 5,
+           6, 7, 8, 9, 10]
+
+total = (1 + 2 + 3 +
+            4 + 5 + 6 +
+            7 + 8 + 9 + 10)
+
+colors = {'red': 255, 'green': 255,
+            'blue': 255}
+\end{lstlisting}
+
+Code \ref{lst:multiline} shows examples of using multi-line statements in
+Python. In this example, the list \texttt{numbers}, the sum \texttt{total},
+and the dictionary \texttt{colors} are defined using multi-line statements
+enclosed in square brackets, parentheses, and curly braces, respectively.
+
+\subsection{Data Types}
+
+In Python, every value has a data type. Data types are used to represent
+different types of data, such as numbers, strings, lists, tuples, dictionaries,
+etc. These data types are used to store, manipulate, and represent data in
+Python programs. Say for example, the data type \texttt{int} is used to
+represent integers, the data type \texttt{float} is used to represent
+floating-point numbers, and the data type \texttt{str} is used to represent
+strings. Using the correct data type is important because it determines
+how the data is stored and how it can be manipulated.
+
+\subsubsection{Integers}
+
+Integers are whole numbers, such as 1, 2, 3, 4, 5, etc. In Python, integers
+are represented using the \texttt{int} data type. Integers can be positive
+or negative, and they can be used in mathematical operations such as addition,
+subtraction, multiplication, and division.
+
+\begin{lstlisting}[language=Python, caption={Integers in Python}, label={lst:integers}]
+x = 5
+y = -10
+
+print(x)
+print(y)
+
+print(type(x))
+print(type(y))
+\end{lstlisting}
+
+Code \ref{lst:integers} shows examples of using integers in Python. In this
+example, the variables \texttt{x} and \texttt{y} are assigned integer values
+5 and -10, respectively. The \texttt{print()} function is used to display
+the values of the variables, and the \texttt{type()} function is used to
+display the data type of the variables.
+
+\subsubsection{Floats}
+
+Floats are decimal numbers, such as 1.0, 2.5, 3.14, 4.0, etc. In Python,
+floats are represented using the \texttt{float} data type. Floats can be
+used to represent real numbers, and they can be used in mathematical
+operations such as addition, subtraction, multiplication, and division.
+
+\begin{lstlisting}[language=Python, caption={Floats in Python}, label={lst:floats}]
+x = 3.14
+y = -2.5
+
+print(x)
+print(y)
+
+print(type(x))
+print(type(y))
+\end{lstlisting}
+
+\subsubsection{Strings}
+
+\subsubsection{Lists}
+
+\subsubsection{Tuples}
+
+\subsubsection{Dictionary}
+
+\subsection{Conversion between Data Types}
+
+\subsection{Basic Operators}
+
+\subsubsection{Arithmetic Operators}
+
+\subsubsection{Comparison Operators}
+
+\subsubsection{Assignment Operators}
+
+\subsubsection{Logical Operators}
+
+\chapter{Control Statements}
+
+\section{Introduction}
+
+\section{Conditional Statements}
+
+\subsection{If Statement}
+
+\subsection{If-Else Statement}
+
+\subsection{If-Elif-Else Statement}
+
+\section{Looping Statements}
+
+\subsection{For Loop}
+
+\subsection{While Loop}
+
+\subsection{Nested Loops}
+
+\chapter{Functions}
+
+\section{Introduction}
+
+\section{Defining Functions}
+
+\section{Calling Functions}
+
+\section{Arguments and Parameters}
+
+\section{Return Statement}
+
+\section{Lambda Functions}
+
+\chapter{File Handling}
+
+\section{Introduction}
+
+\section{Opening and Closing Files}
+
+\section{Reading and Writing Files}
+
+\section{Working with Directories}
+
+\section{CSV File}
+
+\subsection{Reading CSV Files}
+
+\subsection{Writing CSV Files}
+
+\subsection{CRUD Operations in CSV Files}
+
+\subsubsection{Create Operation}
+
+\subsubsection{Read Operation}
+
+\subsubsection{Update Operation}
+
+\subsubsection{Delete Operation}
+
+\chapter{Exception Handling}
+
+\section{Introduction}
+
+\section{Try-Except Block}
+
+\section{Finally Block}
+
+\section{Raising Exceptions}
+
+\section{User-Defined Exceptions}
+
+\chapter{Object-Oriented Programming}
+
+\section{Introduction}
+
+\section{Classes and Objects}
+
+\section{Inheritance}
+
+\section{Polymorphism}
+
+\section{Encapsulation}
+
+\section{Abstraction}
+
+\chapter{Modules and Packages}
+
+\section{Introduction}
+
+\section{Creating Modules}
+
+\section{Importing Modules}
+
+\section{Creating Packages}
+
+\section{Importing Packages}
+
+\chapter{Regular Expressions}
+
+\section{Introduction}
+
+\section{Match Function}
+
+\section{Search Function}
+
+\section{Findall Function}
+
+\section{Split Function}
+
+\section{Sub Function}
+
+\chapter{References}
+
+\begin{enumerate}[label={\textbf{\Alph*.}}]
+  \item \textbf{Books}
+    \begin{itemize}
+      \item 
+    \end{itemize}
+  \item \textbf{Other Sources}
+    \begin{itemize}
+      \item 
+    \end{itemize}
+\end{enumerate}
+
+\end{document}
