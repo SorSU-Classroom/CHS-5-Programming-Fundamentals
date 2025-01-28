@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  22 JAN 2025 13:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  28 JAN 2025 08:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1151,12 +1151,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <./assets/setup/python-install.png, id=603, 401.24907pt x 247.67531pt>
 File: ./assets/setup/python-install.png Graphic file (type png)
 <use ./assets/setup/python-install.png>
-Package pdftex.def Info: ./assets/setup/python-install.png  used on input line 160.
+Package pdftex.def Info: ./assets/setup/python-install.png  used on input line 158.
 (pdftex.def)             Requested size: 362.37569pt x 223.69557pt.
 <./assets/setup/python-check.png, id=605, 464.33475pt x 275.22826pt>
 File: ./assets/setup/python-check.png Graphic file (type png)
 <use ./assets/setup/python-check.png>
-Package pdftex.def Info: ./assets/setup/python-check.png  used on input line 170.
+Package pdftex.def Info: ./assets/setup/python-check.png  used on input line 168.
 (pdftex.def)             Requested size: 362.37569pt x 214.79897pt.
 
 
@@ -1164,25 +1164,25 @@ Package pdftex.def Info: ./assets/setup/python-check.png  used on input line 170
 <./assets/setup/pycharm-community.png, id=618, 1927.2pt x 798.985pt>
 File: ./assets/setup/pycharm-community.png Graphic file (type png)
 <use ./assets/setup/pycharm-community.png>
-Package pdftex.def Info: ./assets/setup/pycharm-community.png  used on input line 187.
+Package pdftex.def Info: ./assets/setup/pycharm-community.png  used on input line 185.
 (pdftex.def)             Requested size: 362.37569pt x 150.22383pt.
 <./assets/setup/pycharm-install.png, id=619, 375.65344pt x 292.09125pt>
 File: ./assets/setup/pycharm-install.png Graphic file (type png)
 <use ./assets/setup/pycharm-install.png>
-Package pdftex.def Info: ./assets/setup/pycharm-install.png  used on input line 198.
+Package pdftex.def Info: ./assets/setup/pycharm-install.png  used on input line 196.
 (pdftex.def)             Requested size: 362.37569pt x 281.78604pt.
 
 
 [4 <./assets/setup/pycharm-community.png> <./assets/setup/pycharm-install.png>] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 222.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 219.
 
 
 [5{c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
 [6]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 309.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 306.
  (c:/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1268,15 +1268,15 @@ Package rerunfilecheck Info: File `"Programming Fundamentals".out' has not chang
 (rerunfilecheck)             Checksum: B93433A57AB10A223AD712FFC09B984A;13279.
  ) 
 Here is how much of TeX's memory you used:
- 34944 strings out of 473207
- 654406 string characters out of 5720461
+ 34942 strings out of 473207
+ 654386 string characters out of 5720461
  1472392 words of memory out of 5000000
  56943 multiletter control sequences out of 15000+600000
- 668723 words of font info for 209 fonts, out of 8000000 for 9000
+ 668640 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  117i,11n,121p,1329b,2089s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Programming Fundamentals.pdf" (35 pages, 594332 bytes).
+Output written on "Programming Fundamentals.pdf" (35 pages, 594787 bytes).
 PDF statistics:
  1177 PDF objects out of 1200 (max. 8388607)
  1077 compressed objects within 11 object streams
