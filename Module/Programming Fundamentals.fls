@@ -1,8 +1,8 @@
-PWD c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module
+PWD c:/Users/jarri/OneDrive/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module/Programming Fundamentals.tex
+INPUT c:/Users/jarri/OneDrive/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module/Programming Fundamentals.tex
 OUTPUT Programming Fundamentals.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/book.cls

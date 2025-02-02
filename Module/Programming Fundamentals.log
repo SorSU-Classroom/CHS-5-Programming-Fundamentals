@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  28 JAN 2025 08:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.18)  2 FEB 2025 21:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module/Programming Fundamentals.tex"
-(c:/Users/jarri/OneDrive - thevailacademy.org/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module/Programming Fundamentals.tex
+**"c:/Users/jarri/OneDrive/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module/Programming Fundamentals.tex"
+(c:/Users/jarri/OneDrive/Documents/SorSU/__Repository__/CHS-5-Programming-Fundamentals/Module/Programming Fundamentals.tex
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
 (c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
@@ -1269,14 +1269,14 @@ Package rerunfilecheck Info: File `"Programming Fundamentals".out' has not chang
  ) 
 Here is how much of TeX's memory you used:
  34942 strings out of 473207
- 654386 string characters out of 5720461
+ 654321 string characters out of 5720461
  1472392 words of memory out of 5000000
  56943 multiletter control sequences out of 15000+600000
  668640 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,11n,121p,1329b,2089s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,11n,121p,1308b,2089s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmro10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Programming Fundamentals.pdf" (35 pages, 594996 bytes).
+Output written on "Programming Fundamentals.pdf" (35 pages, 594772 bytes).
 PDF statistics:
  1177 PDF objects out of 1200 (max. 8388607)
  1077 compressed objects within 11 object streams
