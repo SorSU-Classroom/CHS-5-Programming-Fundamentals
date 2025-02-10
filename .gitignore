@@ -1,1 +1,3 @@
 **/venv
+Module/
+!/Module/**/*.pdf
