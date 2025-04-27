@@ -1,0 +1,11 @@
+ID,ISBN,Book Title,Genre,Author,Publication Year,Publisher,Borrowed By
+1,978-0-13-516630-7,Introduction to Python,Programming,John Doe,2020,TechBooks Publishing,None
+2,978-1-59327-928-8,Automate the Boring Stuff with Python,Programming,Al Sweigart,2019,No Starch Press,None
+3,978-0-7432-7356-5,Angels & Demons,Thriller,Dan Brown,2000,Pocket Books,None
+4,978-0-06-112241-5,To Kill a Mockingbird,Fiction,Harper Lee,1960,J.B. Lippincott & Co.,Maria Santos
+5,978-0-452-28423-4,1984,Dystopian,George Orwell,1949,Signet Classics,None
+6,978-1-118-34994-1,Python Crash Course,Programming,Eric Matthes,2015,No Starch Press,None
+7,978-0-7432-7355-8,The Da Vinci Code,Mystery,Dan Brown,2003,Doubleday,Mark Reyes
+8,978-0-345-39180-3,A Game of Thrones,Fantasy,George R.R. Martin,1996,Bantam Books,None
+9,978-0-553-38016-3,The Hobbit,Fantasy,J.R.R. Tolkien,1937,George Allen & Unwin,Jane Lim
+10,978-0-141-03435-4,The Great Gatsby,Classic,F. Scott Fitzgerald,1925,Charles Scribner's Sons,None
